@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+    opacity: 0;
+    scale:0;
+    z-index: -20;
+    position: absolute;
+}
+.color{
+    background-color: green;
+}
